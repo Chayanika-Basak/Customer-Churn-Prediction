@@ -2,7 +2,7 @@ from mysql.connector import *
 database_connection = connect(host="localhost",
                               database="student",
                               user="root",
-                              password="***********")
+                              password="*************")
 if database_connection.is_connected():
         db_Info = database_connection.get_server_info()
         print("Connected to MySQL Server version ", db_Info)
