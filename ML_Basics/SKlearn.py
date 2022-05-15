@@ -10,3 +10,4 @@ x_max = X[:,0].max() + 0.5
 x_mean = X[:,0].mean()
 
 print((x_count,x_min, x_max,x_mean,))
+
