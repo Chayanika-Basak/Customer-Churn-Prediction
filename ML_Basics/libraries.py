@@ -5,6 +5,7 @@ from pandas import *
 from matplotlib import *
 from sklearn import *
 from matplotlib.pyplot import *
+from pandas.plotting import *
 # print('sys {}'.format(sys.version))
 # print('scipy {}'.format(scipy.__version__))
 # print('numpy {}'.format(numpy.__version__))
@@ -13,7 +14,7 @@ from matplotlib.pyplot import *
 # print('sklearn {}'.format(sklearn.__version__))
 
 names = ['sepal-length','sepal-width','petal-length','petal-width','class']
-ds = read_csv('iris.csv', names=names)
+ds = read_csv('/home/chayanika/Desktop/ITWorkshop/Flood_Landslide_Alert_System/ML_Basics/iris.csv', names=names)
 
 # print(ds.shape)
 # print(ds.head(13))
@@ -23,6 +24,9 @@ ds = read_csv('iris.csv', names=names)
 # ds.plot(kind='box', subplots=True, layout=(2,2), sharex=False, sharey=False)
 # show()
 
-ds.hist()
+# ds.hist()
+# show()
+
+scatter_matrix(ds)
 show()
 
