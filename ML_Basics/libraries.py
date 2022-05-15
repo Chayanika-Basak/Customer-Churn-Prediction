@@ -20,6 +20,9 @@ ds = read_csv('/home/chayanika/Desktop/ITWorkshop/Flood_Landslide_Alert_System/M
 # print(ds.describe())
 # print(ds.groupby('class').size())
 
-ds.plot(kind='box', subplots=True, layout=(2,2), sharex=False, sharey=False)
+# ds.plot(kind='box', subplots=True, layout=(2,2), sharex=False, sharey=False)
+# show()
+
+ds.hist()
 show()
 
