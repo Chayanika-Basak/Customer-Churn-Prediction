@@ -13,7 +13,7 @@ from matplotlib.pyplot import *
 # print('sklearn {}'.format(sklearn.__version__))
 
 names = ['sepal-length','sepal-width','petal-length','petal-width','class']
-ds = read_csv('/home/chayanika/Desktop/ITWorkshop/Flood_Landslide_Alert_System/ML_Basics/iris.csv', names=names)
+ds = read_csv('iris.csv', names=names)
 
 # print(ds.shape)
 # print(ds.head(13))
