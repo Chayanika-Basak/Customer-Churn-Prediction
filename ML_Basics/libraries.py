@@ -27,6 +27,13 @@ ds = read_csv('/home/chayanika/Desktop/ITWorkshop/Flood_Landslide_Alert_System/M
 # ds.hist()
 # show()
 
-scatter_matrix(ds)
-show()
+# scatter_matrix(ds)
+# show()
+array = ds.values
+X = array[:,0:4]
+Y=array[:,4]
+validation_size = 0.20
+seed = 6
+X_train, X_test, Y_train,Y_test = model_selection.train_test_split(X,Y,test_size=validation_size, random_state=seed)
 
+scoring = 'accuracy'
