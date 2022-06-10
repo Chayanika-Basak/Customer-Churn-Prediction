@@ -1,0 +1,11 @@
+print(s)
+# print()
+# sd = np.diag(s)
+# print(sd)
+# print()
+# b=np.zeros((3,4))
+# print(b)
+# print()
+# b[:,:-1]=sd
+# print(b)
+# print()
