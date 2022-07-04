@@ -1,0 +1,28 @@
+what is decision tree?
+decision tree are atype of suprevised learning.data is continuosly split according to a certain parameter
+Decision trees are upside down which means the root is at the top and then this root is split into various several nodes.
+ Decision trees are nothing but a bunch of if-else statements in layman terms.
+ It checks if the condition is true and if it is then it goes to the next node attached to that decision.
+The goal of machine learning is to decrease uncertainty or disorders from the dataset and for this, we use decision trees.
+
+example:-
+In the below diagram the tree will first ask what is the weather?
+ Is it sunny, cloudy, or rainy? If yes then it will go to the next feature which is humidity and wind. 
+It will again check if there is a strong wind or weak, if it’s a weak wind and it’s rainy then the person may go and play.
+https://editor.analyticsvidhya.com/uploads/542834.png  
+
+when should I stop splitting? To decide this, there is a metric called “Entropy” which is the amount of uncertainty in the dataset
+
+ENTROPY
+Entropy is nothing but the uncertainty in our dataset 
+for example:-
+Suppose you have a group of friends who decides which movie they can watch together on Sunday. 
+There are 2 choices for movies, one is “Lucy” and the second is “Titanic” and now everyone has to tell their choice.
+ After everyone gives their answer we see that “Lucy” gets 4 votes and “Titanic” gets 5 votes. Which movie do we watch now? 
+Isn’t it hard to choose 1 movie now because the votes for both the movies are somewhat equal.
+
+This is exactly what we call disorderness, there is an equal number of votes for both the movies, and we can’t really decide which movie we should watch. 
+It would have been much easier if the votes for “Lucy” were 8 and for “Titanic” it was 2. 
+Here we could easily say that the majority of votes are for “Lucy” hence everyone will be watching this movie.
+
+In a decision tree, the output is mostly “yes” or “no”
