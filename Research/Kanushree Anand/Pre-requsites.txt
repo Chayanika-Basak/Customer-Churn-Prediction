@@ -1,0 +1,27 @@
+
+Accuracy = Number of correct prediction / Total Predictions
+
+Accuracy is a ratio of correctly predicted observation to the total observations.
+Accuracy is the most intuitive performance measure.
+
+True Positive: The number of correct predictions that the occurrence is positive
+
+True Negative: The number of correct predictions that the occurrence is negative
+
+F1-Score = (2 x Precision x Recall) / (Precision + Recall)
+
+F1-Score is the weighted average of Precision and Recall used in all types of classification algorithms. 
+Therefore, this score takes both false positives and false negatives into account. 
+F1-Score is usually more useful than accuracy, especially if you have an uneven class distribution.
+
+Precision: When a positive value is predicted, how often is the prediction correct?
+
+Recall: When the actual value is positive, how often is the prediction correct?
+
+Loss Function:   is a measure of how good your prediction model does in terms of being able to predict the e
+xpected outcome(or value). We convert the learning problem into an optimization problem, define a loss function 
+and then optimise the algorithm to minimise the loss function.
+
+Optimization problem: Optimization is the problem of finding a set of inputs to an objective function that 
+results in a maximum or minimum function evaluation. It is the challenging problem that underlies many machine 
+learning algorithms, from fitting logistic regression models to training artificial neural networks.

@@ -1,0 +1,25 @@
+A. Stochastic Gradient Descent:
+
+1. Definition: 
+is a simple and very efficient approach to fit linear models. It supports different loss functions and penalties for classification.
+SGD has become the workhorse of Deep Learning, which, in turn, is responsible for the remarkable progress in computer vision.
+SGD is a simple variant of classical gradient descent where the stochasticity comes from employing a random subset of the measurements 
+(mini-batch) to compute the gradient at each descent. 
+
+2. Actual concept behind it:
+ if the function is c=v^2 then we have to start by finding minimum of the function using 1 data point at a time. This function has only one independent variable (𝑣),
+and its gradient is the derivative 2𝑣. It’s a differentiable convex function, and the analytical way to find its minimum is straightforward. However, in practice, 
+analytical differentiation can be difficult or even impossible and is often approximated with numerical methods.
+
+3. Pros: Efficiency and ease of implementation, in stochastic settings, researchers only observe a subset of the data at a particular time
+
+4. Cons: Requires a number of hyper-parameters and a number of iterations, it is sensitive to feature scaling. Due to frequent updates, 
+the steps taken towards the minima are very noisy
+
+5. use :It is particularly useful when the number of data points is very large so we take sample data points(mini batches) or single data point to solve the problem
+
+6. Where not to use:  when the gradients is too small or too large for the problem then SGD is not preferred
+
+7. Accuracy: 82.20%
+
+8. F1-Score: 0.5780

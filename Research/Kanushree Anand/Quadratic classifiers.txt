@@ -1,0 +1,19 @@
+C. Quadratic Classifiers/ Quadratic Discriminant Analysis:
+
+1. Definition: A quadratic classifier is used in machine learning to separate measurements of two or more classes 
+of objects or events by a quadric surface. It is a more general version of the linear classifier.
+
+2. Actual concept behind it:  in this individual covariance matrix is estimated for every class of observations. 
+Uses Bayes’ theorem to calculate the parameters of the equations. QDA is particularly useful if there is prior 
+knowledge that individual classes exhibit distinct covariances. 
+
+3. Pros: The advantage of quadratic discriminant analysis over linear discriminant analysis and linear 
+regression is that when the decision boundaries are linear, the linear discriminant analysis and logistic regression
+ will perform well; when the decision boundaries are moderately nonlinear, quadratic discriminant analysis can give 
+ better results.
+
+4. Cons:A disadvantage of QDA is that it cannot be used as a dimensionality reduction technique. 
+In QDA, we need to estimate Σk for each class k∈{1,…,K} rather than assuming Σk=Σ as in LDA. The discriminant 
+function of LDA is quadratic in x: δk(x)=−12log|Σk|−12(x−μk)TΣ−1k(x−μk)+logπk
+
+5. Accuracy: 84%

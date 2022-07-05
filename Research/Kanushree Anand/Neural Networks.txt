@@ -1,0 +1,26 @@
+B. Neural Networks:
+
+1. Definition: A neural network is a series of algorithms that endeavors to recognize underlying 
+relationships in a set of data through a process that mimics the way the human brain operates. 
+In this sense, neural networks refer to systems of neurons, either organic or artificial in nature.
+
+2. Actual concept behind it: Firstly, to know an estimation of how far are we from our desired solution a 
+loss function is used. Generally, mean squared error is chosen as the loss function for regression problems 
+and cross entropy for classification problems. Let’s take a regression problem and its loss function be mean 
+squared error, which squares the difference between actual (yᵢ) and predicted value ( ŷᵢ ) → MSEi = (yᵢ - ŷᵢ)2, 
+loss function c will be (summation 1 to n (yᵢ - ŷᵢ)2)/n
+Then secondly, In order to find the best weights and bias for our Perceptron, 
+we need to know how the cost function changes in relation to weights and bias. This is done with the help 
+of the gradients (rate of change) — how one quantity changes in relation to another quantity
+
+3. Pros: It is efficient, easy retrieval in case of any hardware failure and capabale of producing multiple results.
+
+4. Cons: It is hardware dependent and the hardware cost increases with the complexity of the problem
+
+5. Use: Neural networks can provide robust solutions to problems in a wide range of disciplines, 
+particularly areas involving classification, prediction, filtering, optimization, pattern recognition, 
+and function approximation.
+
+6. Where not to use: does’t work well with very small datasets
+
+7. Accuracy: 91%
