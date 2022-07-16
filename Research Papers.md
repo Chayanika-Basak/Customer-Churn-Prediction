@@ -38,3 +38,7 @@ BibText:
   year={2012},
   publisher={Elsevier}
 }
+
+# A Customer Churn Prediction using Pearson Correlation Function and K Nearest Neighbor Algorithm for Telecommunication Industry
+Link: http://188.247.81.52/PapersUploaded/2019.2.4.pdf
+BibText:
