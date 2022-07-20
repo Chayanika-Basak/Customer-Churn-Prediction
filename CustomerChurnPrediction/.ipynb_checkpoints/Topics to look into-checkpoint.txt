@@ -1,0 +1,4 @@
+oversampling, MRMR and Relief Feature selection, 
+feature selection techniques are Sequential Forward Selection (SFS), Sequential
+Backward Selection (SBS), Sequential Forward Floating Selection (SFFS), Sequential Forward
+Floating Selection (SBFS), Sequential Backward Floating Selection (SBFS)
